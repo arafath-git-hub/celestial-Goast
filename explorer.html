@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore NASA's abandoned equipment and forgotten artifacts on the Moon and Mars.">
+    <title>Explorer | Abandoned but Not Forgotten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">ABNF<span>.</span></a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="moon.html">Moon</a>
+            <a href="mars.html">Mars</a>
+            <a href="artifacts.html">Artifacts</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="explorer.html" class="active">Explorer</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-hero explorer-hero">
+            <div class="page-hero-content">
+                <p class="eyebrow">INTERACTIVE SPACE EXPLORATION</p>
+
+                <h1>THE <span>EXPLORER.</span></h1>
+
+                <p>
+                    Travel beyond Earth and discover the machines,
+                    instruments, and artifacts that remain on
+                    the Moon and Mars.
+                </p>
+
+                <a href="#explore-tools" class="btn-primary">
+                    BEGIN YOUR JOURNEY →
+                </a>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <p class="eyebrow">YOUR MISSION STARTS HERE</p>
+
+            <h2>Explore the Forgotten Worlds.</h2>
+
+            <p>
+                Choose a destination, discover historic missions,
+                and learn about the equipment that humanity
+                has left behind in space.
+            </p>
+        </section>
+
+        <section class="explorer-section" id="explore-tools">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">SELECT YOUR DESTINATION</p>
+                    <h2>Where Will You Explore?</h2>
+                </div>
+            </div>
+
+            <div class="destination-grid">
+
+                <a href="moon.html" class="destination-card moon-card">
+                    <div class="card-content">
+                        <span>DESTINATION 01</span>
+                        <h3>THE MOON</h3>
+
+                        <p>
+                            Discover Apollo landing sites,
+                            lunar modules, scientific instruments,
+                            and historic equipment.
+                        </p>
+
+                        <strong>EXPLORE MOON →</strong>
+                    </div>
+                </a>
+
+                <a href="mars.html" class="destination-card mars-card">
+                    <div class="card-content">
+                        <span>DESTINATION 02</span>
+                        <h3>MARS</h3>
+
+                        <p>
+                            Explore robotic rovers, old landers,
+                            and the remains of humanity's
+                            missions to the Red Planet.
+                        </p>
+
+                        <strong>EXPLORE MARS →</strong>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section class="explorer-search-section">
+
+            <p class="eyebrow">ARTIFACT DATABASE</p>
+
+            <h2>Find a Forgotten Artifact.</h2>
+
+            <p>
+                Search the collection by artifact or mission name.
+            </p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="artifactSearch"
+                    placeholder="Search artifacts... (e.g. Apollo, Spirit)"
+                    autocomplete="off"
+                >
+
+                <button id="searchButton" type="button">
+                    SEARCH →
+                </button>
+            </div>
+
+            <div class="search-results" id="searchResults">
+
+                <article class="search-item">
+                    <span>MOON / 1969</span>
+                    <h3>Apollo 11 Lunar Module</h3>
+                    <p>Historic lunar landing equipment.</p>
+                    <a href="moon.html">VIEW DETAILS →</a>
+                </article>
+
+                <article class="search-item">
+                    <span>MARS / 1997</span>
+                    <h3>Sojourner Rover</h3>
+                    <p>NASA's first successful Mars rover.</p>
+                    <a href="mars.html">VIEW DETAILS →</a>
+                </article>
+
+                <article class="search-item">
+                    <span>MARS / 2004</span>
+                    <h3>Spirit Rover</h3>
+                    <p>A robotic explorer of the Red Planet.</p>
+                    <a href="mars.html">VIEW DETAILS →</a>
+                </article>
+
+                <article class="search-item">
+                    <span>MARS / 2004</span>
+                    <h3>Opportunity Rover</h3>
+                    <p>A rover that explored Mars for nearly 15 years.</p>
+                    <a href="mars.html">VIEW DETAILS →</a>
+                </article>
+
+                <article class="search-item">
+                    <span>MOON / 1971</span>
+                    <h3>Lunar Roving Vehicle</h3>
+                    <p>The vehicle used by Apollo astronauts.</p>
+                    <a href="moon.html">VIEW DETAILS →</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="fact-section">
+            <p class="eyebrow">EXPLORATION NEVER ENDS</p>
+
+            <h2>Look Beyond the Horizon.</h2>
+
+            <p>
+                Every forgotten artifact is a reminder
+                of how far humanity has travelled
+                in its search for knowledge.
+            </p>
+        </section>
+
+        <section class="next-section">
+            <p class="eyebrow">CONTINUE EXPLORING</p>
+
+            <h2>Discover Every Story.</h2>
+
+            <a href="artifacts.html" class="btn-primary">
+                VIEW ARTIFACT COLLECTION →
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">ABNF<span>.</span></a>
+
+        <p>AN EXPLORATION OF HUMANITY'S FOOTPRINTS IN SPACE.</p>
+
+        <p>© 2026 ABANDONED BUT NOT FORGOTTEN.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
